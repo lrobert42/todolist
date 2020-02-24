@@ -90,12 +90,12 @@ export default class CreateTodo extends Component {
                        <div className="form-group">
                            <label>Content: </label>
                            <input
-                                   id="content"
-                                   type="text"
-                                   className="form-control"
-                                   value={this.state.todo_content}
-                                   onChange={this.onChangeTodoContent}
-                                   />
+                               id="content"
+                               type="text"
+                               className="form-control"
+                               value={this.state.todo_content}
+                               onChange={this.onChangeTodoContent}
+                               />
                        </div>
                    <div className="form-group">
                        <label>User: </label>
